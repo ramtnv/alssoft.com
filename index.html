@@ -4,26 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Abacus Logistics Solutions | Business Software &amp; IT Solutions</title>
-    <meta name="description" content="Abacus Logistics Solutions builds business process automation, enterprise software and domain-focused IT solutions for banking, education, retail and more. Based in Chennai since 1986." />
+    <meta
+      name="description"
+      content="Abacus Logistics Solutions builds business process automation, enterprise software and domain-focused IT solutions for banking, education, retail and more. Based in Chennai since 1986."
+    />
 
-    <!-- Google Font -->
+    <!-- Google Font & Core Stylesheets -->
     <link href="./index_files/css2.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./src/assets/scss/main.scss" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/modern-ui.css" />
   </head>
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand d-flex align-items-center gap-3" href="#home" aria-label="Abacus Logistics Solutions home">
           <span class="brand-mark" aria-hidden="true">
-            <img src="./index_files/ALS.png" alt="" />
+            <img src="./index_files/ALS.png" alt="Abacus Logistics Solutions Logo" />
           </span>
-          <span class="brand-lockup">
+          <span class="brand-lockup d-flex flex-column">
             <span class="brand-name">Abacus <span>Logistics Solutions</span></span>
-            <span class="brand-caption">Business software · IT solutions</span>
+            <span class="brand-caption">Business Software · IT Solutions</span>
           </span>
         </a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -37,25 +42,15 @@
         </button>
 
         <div class="collapse navbar-collapse justify-content-end" id="mainNavbar">
-          <ul class="navbar-nav mb-2 mb-lg-0">
+          <ul class="navbar-nav align-items-lg-center mb-2 mb-lg-0 gap-1">
             <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#products">Products</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#solutions">Solutions</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#clientele">Clientele</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link nav-contact" href="#contact">Contact Us</a>
+            <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+            <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+            <li class="nav-item"><a class="nav-link" href="#solutions">Solutions</a></li>
+            <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+            <li class="nav-item"><a class="nav-link" href="#clientele">Clientele</a></li>
+            <li class="nav-item ms-lg-2">
+              <a class="nav-link nav-cta-btn" href="#contact">Contact Us</a>
             </li>
           </ul>
         </div>
@@ -69,195 +64,248 @@
           <div class="col-lg-6">
             <div class="hero-badge mb-3 fade-in-up show">
               <span class="dot" aria-hidden="true"></span>
-              Software built around the way you work
+              Enterprise Automation · Chennai, Since 1986
             </div>
             <h1 class="hero-title mb-3 fade-in-up show">
               Software that makes <span class="hero-highlight">work flow.</span>
             </h1>
-            <p class="hero-subtitle mb-3 fade-in-up show">
-              From cheque clearing to campus libraries, we build practical software around real
-              business processes—so your people spend less time managing systems and more time
-              moving work forward.
+            <p class="hero-subtitle mb-4 fade-in-up show">
+              From cheque truncation to campus knowledge management, we build practical software shaped around real business processes—enabling teams to eliminate operational complexity and move work forward.
             </p>
 
-            <div class="d-flex flex-wrap gap-3 fade-in-up show">
-              <a href="#products" class="btn btn-primary btn-lg px-4">
-                Explore our software
+            <div class="d-flex flex-wrap gap-3 mb-4 fade-in-up show">
+              <a href="#solutions" class="btn btn-primary-action px-4 py-2">
+                Explore Solutions →
               </a>
-              <a href="#contact" class="btn btn-outline-secondary btn-lg px-4">
-                Talk to our team
+              <a href="#contact" class="btn btn-outline-secondary px-4 py-2" style="border-radius: var(--als-radius-sm); font-weight: 600;">
+                Schedule a Consultation
               </a>
+            </div>
+
+            <!-- Proof Bar -->
+            <div class="proof-bar fade-in-up show">
+              <div class="proof-item">
+                <h4>38+</h4>
+                <span>Years Heritage</span>
+              </div>
+              <div class="proof-item">
+                <h4>65+</h4>
+                <span>Client Partners</span>
+              </div>
+              <div class="proof-item">
+                <h4>100%</h4>
+                <span>CTS Compliant</span>
+              </div>
+              <div class="proof-item">
+                <h4>24×7</h4>
+                <span>SLA Support</span>
+              </div>
             </div>
           </div>
 
           <div class="col-lg-6">
-            <div class="hero-visual fade-in-up show" aria-label="Illustration of connected Abacus business software">
-              <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-              <div class="hero-glow"></div>
-              <div class="dashboard-card">
-                <div class="dashboard-top"><span class="dashboard-mark">A</span><span><b>Business operations</b><small>One clear view of the work</small></span><span class="live-indicator">● Live</span></div>
-                <div class="dashboard-summary"><span>Process overview</span><b>Work, connected.</b><small>Software shaped around your workflow</small></div>
-                <div class="workflow"><div class="workflow-step"><span>01</span><b>Capture</b><small>Bring work in</small></div><i></i><div class="workflow-step active"><span>02</span><b>Process</b><small>Keep it moving</small></div><i></i><div class="workflow-step"><span>03</span><b>Complete</b><small>See what’s done</small></div></div>
-                <div class="dashboard-bottom"><span class="status-dot"></span> Built for your business process <span class="dashboard-lock">Secure by design</span></div>
+            <div class="preview-window fade-in-up show">
+              <div class="window-header">
+                <div class="window-controls">
+                  <span class="control-close"></span>
+                  <span class="control-min"></span>
+                  <span class="control-max"></span>
+                </div>
+                <div class="window-title">instacrdr-clearing-engine.v4</div>
+                <span class="badge bg-success-subtle text-success border border-success-subtle px-2 py-1" style="font-size: 0.65rem;">
+                  ● System Operational
+                </span>
               </div>
-              <div class="float-note float-note-top"><span>✳</span> Purpose-built software</div>
-              <div class="float-note float-note-bottom"><span>↗</span> From Chennai, since 1986</div>
+              <div class="window-body">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <div>
+                    <span class="text-uppercase text-muted" style="font-size: 0.68rem; font-weight: 700; letter-spacing: 0.05em;">Financial Workflow</span>
+                    <h5 class="mb-0 fw-bold">Cheque Truncation Pipeline</h5>
+                  </div>
+                  <span class="badge bg-light text-dark border px-2 py-1" style="font-size: 0.72rem;">Batch #CTS-9042</span>
+                </div>
+
+                <div class="row g-2 mb-3">
+                  <div class="col-4">
+                    <div class="pipeline-step">
+                      <div class="step-num">STAGE 01</div>
+                      <h6>Capture</h6>
+                      <small>Branch Scanned</small>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="pipeline-step active">
+                      <div class="step-num">STAGE 02</div>
+                      <h6>Truncate</h6>
+                      <small>Encrypted Outward</small>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <div class="pipeline-step">
+                      <div class="step-num">STAGE 03</div>
+                      <h6>Clear</h6>
+                      <small>Same-Day Credit</small>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="p-3 rounded-3 bg-light border d-flex align-items-center justify-content-between" style="font-size: 0.8rem;">
+                  <div class="d-flex align-items-center gap-2">
+                    <span class="text-success fw-bold">✓</span>
+                    <span>MICR Verification &amp; Cryptographic Signatures</span>
+                  </div>
+                  <span class="text-muted font-monospace" style="font-size: 0.72rem;">0.12s latency</span>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center mt-3 pt-2 border-top text-muted" style="font-size: 0.72rem;">
+                  <span>🔒 Secure Bank-Grade End-to-End Encryption</span>
+                  <span>Chennai, India</span>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="row mt-5 fade-in-up show">
-          <div class="col-lg-12">
-            <div class="info-card p-4 bg-soft">
-              <h5 class="mb-3">Technology that fits the way your team works</h5>
-              <div class="row g-2 text-small">
-                <div class="col-md-3">
-                  <ul class="mb-0">
-                    <li>Saving costs</li>
-                    <li>Enhancing sales</li>
-                    <li>Improving quality</li>
-                    <li>Creating goodwill</li>
-                  </ul>
-                </div>
-                <div class="col-md-3">
-                  <ul class="mb-0">
-                    <li>Increasing accuracy</li>
-                    <li>Lowering overheads</li>
-                    <li>Maintaining efficiency</li>
-                    <li>Optimizing manpower</li>
-                  </ul>
-                </div>
-                <div class="col-md-3">
-                  <ul class="mb-0">
-                    <li>Standardizing service</li>
-                    <li>Maintaining customer relation</li>
-                    <li>Adapting quickly to reality</li>
-                  </ul>
-                </div>
-                <div class="col-md-3">
-                  <ul class="mb-0">
-                    <li>Performing to expectations</li>
-                    <li>Automation for niche processes</li>
-                    <li>Value added IT services</li>
-                  </ul>
-                </div>
-              </div>
-              <p class="mt-3 text-small mb-0">We pair ready-to-deploy products with domain-specific customization, integration and ongoing support—because useful technology starts with understanding the work.</p>
+        <!-- Capability Pillars -->
+        <div class="row mt-5 g-3 fade-in-up show">
+          <div class="col-md-3">
+            <div class="modern-card p-3">
+              <div class="card-icon-box mb-2" style="width: 38px; height: 38px; font-size: 1.1rem;">⚡</div>
+              <h6 class="fw-bold mb-1">Turnaround Speed</h6>
+              <p class="text-small mb-0 text-muted">Same-day clearing for local instruments; outstation clearing within 1 business day.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="modern-card p-3">
+              <div class="card-icon-box mb-2" style="width: 38px; height: 38px; font-size: 1.1rem;">🔒</div>
+              <h6 class="fw-bold mb-1">Zero Transit Loss</h6>
+              <p class="text-small mb-0 text-muted">Eliminates physical courier movement, lost cheques, and clearing house transit frauds.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="modern-card p-3">
+              <div class="card-icon-box mb-2" style="width: 38px; height: 38px; font-size: 1.1rem;">🎯</div>
+              <h6 class="fw-bold mb-1">Niche Automation</h6>
+              <p class="text-small mb-0 text-muted">Specialized software engineered around actual operating conditions and constraints.</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="modern-card p-3">
+              <div class="card-icon-box mb-2" style="width: 38px; height: 38px; font-size: 1.1rem;">🤝</div>
+              <h6 class="fw-bold mb-1">Dedicated Support</h6>
+              <p class="text-small mb-0 text-muted">AMC-backed onsite visits, remote e-assistance, and continuous operational guidance.</p>
             </div>
           </div>
         </div>
       </div>
     </header>
+
     <!-- About Us -->
     <section id="about">
       <div class="container-fluid">
-        <div class="row g-4 align-items-start">
+        <div class="row g-5 align-items-start">
           <div class="col-lg-5">
-            <h2 class="section-title">About Us</h2>
+            <span class="section-tag">ABOUT US</span>
+            <h2 class="section-title">Innovating in niche business automation since 1986</h2>
             <p class="section-subtitle">
-              Abacus Logistics Solutions Private Limited, formerly known as Abacus Computer Centre
-              (P) Ltd, has been innovating in niche business process automation since 2000.
+              Abacus Logistics Solutions Private Limited, formerly known as Abacus Computer Centre (P) Ltd, has been delivering tailored enterprise technology for over three decades.
             </p>
-            <div class="info-card p-4 mt-3 fade-in-up show">
-              <h6 class="text-uppercase text-muted small mb-2">Genesis</h6>
+
+            <div class="modern-card p-4 mt-3 fade-in-up show">
+              <span class="text-uppercase text-muted fw-bold" style="font-size: 0.72rem; letter-spacing: 0.05em;">Our Genesis</span>
+              <h5 class="mt-1 mb-2">From Chennai to the Enterprise</h5>
               <p class="text-small mb-0">
-                Located in Chennai, India, Abacus was established in 1986, initially focusing on
-                basic computer courses. From 2000 onwards, we invested heavily in software
-                development for niche business processes, resulting in highly innovative
-                off-the-shelf and enterprise solutions, including for e-Governance.
+                Established in Chennai in 1986, Abacus pioneered early computing education before transitioning in 2000 into specialized software engineering for niche business processes. Today, our turnkey systems empower financial institutions, universities, and commercial enterprises across India.
               </p>
             </div>
+
+            <div class="p-3 mt-3 rounded-3 bg-white border d-flex align-items-center gap-3">
+              <div class="text-primary fs-3">“</div>
+              <div class="text-small fst-italic text-muted">
+                Applying Logic to Innovate — building backbone enterprise systems synchronized with real-world operating environments.
+              </div>
+            </div>
           </div>
+
           <div class="col-lg-7">
             <div class="row g-3">
               <div class="col-md-6 fade-in-up show">
-                <div class="info-card p-4 h-100">
-                  <h6>Talent</h6>
+                <div class="modern-card h-100">
+                  <div class="card-top-accent"></div>
+                  <div class="card-icon-box">💡</div>
+                  <h5>Talent &amp; Engineering</h5>
                   <p class="text-small mb-0">
-                    We have the talent and technological know-how for providing both professional
-                    and enterprise computing solutions. The evidence for our talent is reflected in
-                    the range of software solutions we offer in readily installable and customizable
-                    packages.
+                    We maintain deep technological know-how for designing scalable enterprise architectures, reflected in our ready-to-install, customizable software suites.
                   </p>
                 </div>
               </div>
+
               <div class="col-md-6 fade-in-up show">
-                <div class="info-card p-4 h-100">
-                  <h6>Ability</h6>
+                <div class="modern-card h-100">
+                  <div class="card-top-accent"></div>
+                  <div class="card-icon-box">⚙️</div>
+                  <h5>Execution Ability</h5>
                   <p class="text-small mb-0">
-                    With modern infrastructure and efficient software professionals under sincere
-                    management, we are ideally positioned to implement complex business process
-                    automation for any domain.
+                    With modern infrastructure and sincere management, we are positioned to deploy complex business process automation across banking, education, and retail.
                   </p>
                 </div>
               </div>
+
               <div class="col-md-6 fade-in-up show">
-                <div class="info-card p-4 h-100">
-                  <h6>Mission</h6>
+                <div class="modern-card h-100">
+                  <div class="card-top-accent"></div>
+                  <div class="card-icon-box">🎯</div>
+                  <h5>Mission</h5>
                   <p class="text-small mb-0">
-                    Our mission is “To provide our customers with robust business process automation
-                    on their requirements synchronized to the working condition leading to
-                    achievement of excellent performance and ideal profitability.”
+                    To provide robust business process automation synchronized to customer working conditions, leading to excellent performance and ideal profitability.
                   </p>
                 </div>
               </div>
+
               <div class="col-md-6 fade-in-up show">
-                <div class="info-card p-4 h-100">
-                  <h6>Quality Policy</h6>
+                <div class="modern-card h-100">
+                  <div class="card-top-accent"></div>
+                  <div class="card-icon-box">🏆</div>
+                  <h5>Quality Policy</h5>
                   <p class="text-small mb-0">
-                    “To program solutions addressing customer prescribed constraints over the actual
-                    working conditions for achieving quality business process automation that brings
-                    efficiency, excellence, cost savings, best output and customer satisfaction.”
+                    To program solutions addressing customer prescribed constraints over actual working conditions for quality automation that brings efficiency and cost savings.
                   </p>
                 </div>
               </div>
             </div>
 
-            <!-- Capability / Expertise / Customer Care -->
-            <div class="row g-3 mt-1">
-              <div class="col-md-4 fade-in-up show">
-                <div class="info-card p-3 h-100">
-                  <h6 class="small">Capability</h6>
-                  <ul class="text-small mb-0">
-                    <li>Software engineering &amp; development</li>
-                    <li>System design &amp; IT consultancy</li>
-                    <li>Onsite/Offsite data processing</li>
-                    <li>Web programming &amp; services</li>
-                    <li>Turnkey automation with hardware</li>
-                    <li>ERP as per domain requirements</li>
+            <!-- Capability List -->
+            <div class="modern-card p-4 mt-3 fade-in-up show">
+              <h6 class="fw-bold mb-3">Core Engineering Capabilities &amp; Services</h6>
+              <div class="row g-2 text-small">
+                <div class="col-sm-6">
+                  <ul class="list-unstyled mb-0 space-y-1">
+                    <li class="d-flex align-items-center gap-2 mb-1">
+                      <span class="text-primary fw-bold">✓</span> Software engineering &amp; development
+                    </li>
+                    <li class="d-flex align-items-center gap-2 mb-1">
+                      <span class="text-primary fw-bold">✓</span> System design &amp; IT consultancy
+                    </li>
+                    <li class="d-flex align-items-center gap-2">
+                      <span class="text-primary fw-bold">✓</span> Onsite/Offsite data processing
+                    </li>
                   </ul>
                 </div>
-              </div>
-              <div class="col-md-4 fade-in-up show">
-                <div class="info-card p-3 h-100">
-                  <h6 class="small">Expertise</h6>
-                  <ul class="text-small mb-0">
-                    <li>Business Processing Systems</li>
-                    <li>Management Information Systems</li>
-                    <li>Interface Integration</li>
-                    <li>Data warehousing</li>
-                    <li>Web-based applications</li>
-                    <li>Information Security services</li>
+                <div class="col-sm-6">
+                  <ul class="list-unstyled mb-0 space-y-1">
+                    <li class="d-flex align-items-center gap-2 mb-1">
+                      <span class="text-primary fw-bold">✓</span> Turnkey automation with hardware
+                    </li>
+                    <li class="d-flex align-items-center gap-2 mb-1">
+                      <span class="text-primary fw-bold">✓</span> Web applications &amp; data warehousing
+                    </li>
+                    <li class="d-flex align-items-center gap-2">
+                      <span class="text-primary fw-bold">✓</span> Comprehensive AMC &amp; customer care
+                    </li>
                   </ul>
-                </div>
-              </div>
-              <div class="col-md-4 fade-in-up show">
-                <div class="info-card p-3 h-100">
-                  <h6 class="small">Customer Care</h6>
-                  <p class="text-small mb-0">
-                    We provide well-defined after sales support including AMC-based onsite visits,
-                    phone support, regular orientation and training, and remote “e-visits” for
-                    critical issues.
-                  </p>
                 </div>
               </div>
             </div>
-
-            <p class="text-small mt-3">
-              We live our motto <strong>“Applying Logic to Innovate”</strong> by providing
-              customizable, backbone enterprise software synchronized with client needs and
-              integrated with specialist domain partners and hardware.
-            </p>
           </div>
         </div>
       </div>
@@ -266,666 +314,502 @@
     <!-- Products -->
     <section id="products">
       <div class="container-fluid">
-        <h2 class="section-title">Products</h2>
+        <span class="section-tag">PRODUCTS</span>
+        <h2 class="section-title">Ready-to-Deploy Software Products</h2>
         <p class="section-subtitle">
-          Ready-to-deploy, domain-focused products designed for real-world business processes.
+          Domain-focused software suites designed for real-world operational challenges in education and commercial enterprises.
         </p>
 
         <div class="row g-4 mt-2">
           <!-- PigeonDra -->
-          <div class="col-md-6 fade-in-up show">
-            <div class="feature-card p-4 h-100">
-              <h5 class="mb-1">PigeonDra</h5>
-              <p class="text-small text-muted mb-2">Library &amp; Knowledge Management</p>
-              <p class="text-small">
-                Knowledge makes anyone efficient in day-to-day endeavours. Books play a predominant
-                role in imparting knowledge to those who read them. Through maintenance of academic
-                books, reference books, journals and periodicals in the main library and
-                sub-libraries of a campus, PigeonDra offers an effective platform for enriching
-                knowledge of students and faculties.
+          <div class="col-lg-6 fade-in-up show">
+            <div class="modern-card h-100">
+              <div class="card-top-accent"></div>
+              <div class="d-flex justify-content-between align-items-start mb-3">
+                <div class="card-icon-box">📚</div>
+                <span class="badge bg-primary-subtle text-primary border border-primary-subtle px-2.5 py-1">
+                  Academic &amp; Knowledge ERP
+                </span>
+              </div>
+              <h4>PigeonDra</h4>
+              <p class="text-muted fw-medium mb-3">Campus Library &amp; Knowledge Management Platform</p>
+              <p>
+                Books and academic journals play a predominant role in imparting knowledge. Through maintenance of academic books, reference volumes, journals, and periodicals across main libraries and departmental sub-libraries, PigeonDra offers an effective platform for enriching knowledge across campuses.
               </p>
-              <p class="text-small mb-0">
-                It supports centralized and departmental libraries for colleges and universities,
-                enabling efficient cataloging, circulation, and access to learning resources.
+              <p class="text-small text-muted mb-3">
+                Engineered for colleges, universities, and polytechnics, supporting centralized cataloging, student/faculty circulation, barcode integration, and rapid access to learning resources.
               </p>
-              <a
-                href="#contact"
-                class="mt-3 d-inline-flex align-items-center text-decoration-none text-primary text-small"
-              >
-                Ask us about PigeonDra
-                <span class="ms-1">→</span>
-              </a>
+              <div class="feature-pill-list">
+                <span class="feature-pill">Centralized &amp; Sub-Libraries</span>
+                <span class="feature-pill">Circulation &amp; Fines</span>
+                <span class="feature-pill">Journal Tracking</span>
+                <span class="feature-pill">Barcode Ready</span>
+              </div>
+              <div class="mt-auto pt-3 border-top">
+                <a href="#contact" class="btn btn-outline-primary btn-sm rounded-pill px-3 py-1.5" onclick="selectTopic('PigeonDra')">
+                  Enquire About PigeonDra →
+                </a>
+              </div>
             </div>
           </div>
 
           <!-- SalePromptor -->
-          <div class="col-md-6 fade-in-up show">
-            <div class="feature-card p-4 h-100">
-              <h5 class="mb-1">SalePromptor</h5>
-              <p class="text-small text-muted mb-2">Product Catalogue &amp; Sales Promotion</p>
-              <p class="text-small">
-                Product information is crucial for effective sales promotion. SalePromptor enables
-                enterprises to introduce products and services to customers through dynamic
-                catalogues and displays.
+          <div class="col-lg-6 fade-in-up show">
+            <div class="modern-card h-100">
+              <div class="card-top-accent"></div>
+              <div class="d-flex justify-content-between align-items-start mb-3">
+                <div class="card-icon-box">🛍️</div>
+                <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle px-2.5 py-1">
+                  Dynamic Sales Promotion
+                </span>
+              </div>
+              <h4>SalePromptor</h4>
+              <p class="text-muted fw-medium mb-3">Product Catalogue &amp; Commercial Display System</p>
+              <p>
+                Timely product specifications and inventory information are crucial for sales conversion. SalePromptor empowers commercial entities and distributor networks to introduce products and services dynamically to prospective clients through continuously updated interactive catalogues.
               </p>
-              <p class="text-small mb-0">
-                It supports continuously updated product catalogues with current information,
-                providing an indispensable marketing means for catalog circulation and product
-                display, making it easier for customers to make informed decisions.
+              <p class="text-small text-muted mb-3">
+                Eliminates publishing bottlenecks by enabling non-technical teams to update product lines, high-resolution imagery, and pricing in real time, making customer decision-making immediate.
               </p>
-              <a
-                href="#contact"
-                class="mt-3 d-inline-flex align-items-center text-decoration-none text-primary text-small"
-              >
-                Ask us about SalePromptor
-                <span class="ms-1">→</span>
-              </a>
+              <div class="feature-pill-list">
+                <span class="feature-pill">Real-time Catalogue Sync</span>
+                <span class="feature-pill">Interactive Displays</span>
+                <span class="feature-pill">B2B &amp; Retail Marketing</span>
+                <span class="feature-pill">Instant Content Control</span>
+              </div>
+              <div class="mt-auto pt-3 border-top">
+                <a href="#contact" class="btn btn-outline-primary btn-sm rounded-pill px-3 py-1.5" onclick="selectTopic('SalePromptor')">
+                  Enquire About SalePromptor →
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- Solutions -->
     <section id="solutions">
       <div class="container-fluid">
-        <h2 class="section-title">Solutions</h2>
+        <span class="section-tag">FLAGSHIP SOLUTION</span>
+        <h2 class="section-title">Insta CrDr — Cheque Truncation &amp; Clearing Automation</h2>
         <p class="section-subtitle">
-          Innovative cheque clearing and financial process automation through our flagship solution,
-          Insta CrDr.
+          Transforming conventional banking with real-time, image-based cheque truncation and automated clearing workflows.
         </p>
 
-        <!-- Insta CrDr Overview -->
-        <div class="row g-4 mt-2">
-          <div class="col-lg-6 fade-in-up show">
-            <div class="info-card p-4 h-100">
-              <h5 class="mb-2">Importance of Cheques</h5>
-              <p class="text-small">
-                Despite modern innovations such as anywhere banking, electronic transfers, ECS and
-                net banking, cheque transactions still occupy a key role in financial systems
-                worldwide. Cheques are recognized as valuable security instruments used by account
-                holders across the globe.
+        <!-- Flagship Hero Banner -->
+        <div class="flagship-banner fade-in-up show mb-5">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-7">
+              <span class="badge bg-success text-white mb-2 px-3 py-1" style="font-size: 0.75rem;">
+                CTS-Compliant Banking Solution
+              </span>
+              <h3 class="mb-3">Same-Day Cheque Clearance Without Physical Movement</h3>
+              <p class="mb-4">
+                Despite electronic fund transfers, cheques remain primary security instruments worldwide. Conventional clearing takes 5 to 15 days for outstation cheques due to physical transit and manual handling. <b>Insta CrDr truncates physical cheques at the branch</b>, converting them into secure cryptographic images for real-time clearing.
               </p>
-              <h6 class="mt-3 mb-2">Conventional Cheque Clearing</h6>
-              <p class="text-small mb-0">
-                Traditional cheque clearing involves multiple manual steps, branches, messengers,
-                sorting, ledger entries, and physical movement of cheque bundles. This results in
-                delays, operational complexity and customer dissatisfaction, particularly for
-                outstation cheques which can take 5 to 15 days to clear.
-              </p>
+              <div class="d-flex flex-wrap gap-2">
+                <div class="flagship-stat-chip">
+                  <b>Same-Day</b>
+                  <span>Local Clearance</span>
+                </div>
+                <div class="flagship-stat-chip">
+                  <b>&lt; 24h</b>
+                  <span>Outstation Turnaround</span>
+                </div>
+                <div class="flagship-stat-chip">
+                  <b>Zero</b>
+                  <span>Transit Courier Losses</span>
+                </div>
+              </div>
             </div>
-          </div>
-
-          <div class="col-lg-6 fade-in-up show">
-            <div class="info-card p-4 h-100">
-              <h5 class="mb-2">What is Insta CrDr?</h5>
-              <p class="text-small">
-                Insta CrDr is our real-time image-based cheque clearing system that truncates
-                physical cheques from the clearing process, using secure image-based workflows
-                instead of manual movement of instruments.
-              </p>
-              <p class="text-small">
-                Insta CrDr uses in-house developed controls, commands and security logic to handle
-                the entire business process at admirable speed, preserving scanned cheque images and
-                enabling rapid retrieval.
-              </p>
-              <ul class="text-small mb-0">
-                <li>Same-day clearance of local cheques</li>
-                <li>Outstation cheques cleared within a business day</li>
-                <li>Fully secured, encrypted data transmission</li>
-              </ul>
+            <div class="col-lg-5">
+              <div class="p-3 rounded-3 bg-white text-dark shadow-sm">
+                <h6 class="fw-bold text-dark border-bottom pb-2 mb-2">Insta CrDr Core Strengths</h6>
+                <ul class="list-unstyled mb-0 text-small space-y-1">
+                  <li class="py-1 border-bottom d-flex align-items-center gap-2">
+                    <span class="text-success fw-bold">✓</span> Same-day credit minimizes customer waiting
+                  </li>
+                  <li class="py-1 border-bottom d-flex align-items-center gap-2">
+                    <span class="text-success fw-bold">✓</span> Secure encrypted transmission over bank networks
+                  </li>
+                  <li class="py-1 border-bottom d-flex align-items-center gap-2">
+                    <span class="text-success fw-bold">✓</span> Automated identification of rogue accounts
+                  </li>
+                  <li class="py-1 border-bottom d-flex align-items-center gap-2">
+                    <span class="text-success fw-bold">✓</span> Long-term image archival and instant retrieval
+                  </li>
+                  <li class="py-1 d-flex align-items-center gap-2">
+                    <span class="text-success fw-bold">✓</span> Reduced clearing cost per instrument
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- How it works + Benefits -->
-        <div class="row g-4 mt-1">
-          <div class="col-lg-7 fade-in-up show">
-            <div class="info-card p-4 h-100">
-              <h6 class="mb-2">How Insta CrDr Works</h6>
-              <ol class="text-small mb-0">
-                <li>
-                  Cheques presented for clearing are scanned and stored in the branch-level Insta
-                  CrDr database.
-                </li>
-                <li>Images are grouped, verified and authenticated.</li>
-                <li>
-                  Verified images are securely transmitted to the clearing house as outward flow.
-                </li>
-                <li>
-                  At the clearing house, images from branches are sorted bank/branch wise and
-                  consolidated.
-                </li>
-                <li>
-                  Consolidated files are transferred electronically to respective branches as inward
-                  flow for verification and posting.
-                </li>
-                <li>
-                  Dishonoured cheque images are regrouped and routed back electronically,
-                  eliminating physical movement.
-                </li>
-              </ol>
-              <p class="text-small mt-2 mb-0">
-                The entire process runs in real time over a secured network, irrespective of
-                distance between branches.
-              </p>
+        <!-- 6-Step Workflow Pipeline -->
+        <h4 class="fw-bold mb-3">How the Insta CrDr Architecture Works</h4>
+        <div class="row g-3 fade-in-up show">
+          <div class="col-md-4 col-lg-2">
+            <div class="modern-card p-3 h-100">
+              <div class="step-num text-primary fw-bold mb-1">01</div>
+              <h6 class="fw-bold mb-1">Scan &amp; Capture</h6>
+              <p class="text-small text-muted mb-0">Cheque scanned and stored at branch level.</p>
             </div>
           </div>
-
-          <div class="col-lg-5 fade-in-up show">
-            <div class="info-card p-4 h-100">
-              <h6 class="mb-2">What Insta CrDr Can Do</h6>
-              <ul class="text-small mb-0">
-                <li>Increase operational efficiency</li>
-                <li>Minimize time for crediting</li>
-                <li>Reduce operational cost</li>
-                <li>Increase customer satisfaction</li>
-                <li>Eliminate cheque loss in transit</li>
-                <li>Reduce clearing house frauds</li>
-                <li>Help identify rogue accounts</li>
-                <li>Provide efficient archival system</li>
-                <li>Eliminate distance barriers</li>
-                <li>Enhance reliability and security</li>
-                <li>Improve overall banking sector efficiency</li>
-                <li>Increase productive time of money</li>
-                <li>Scale for any type of usage</li>
-              </ul>
+          <div class="col-md-4 col-lg-2">
+            <div class="modern-card p-3 h-100">
+              <div class="step-num text-primary fw-bold mb-1">02</div>
+              <h6 class="fw-bold mb-1">Authentication</h6>
+              <p class="text-small text-muted mb-0">Images grouped, verified, and signed.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="modern-card p-3 h-100">
+              <div class="step-num text-primary fw-bold mb-1">03</div>
+              <h6 class="fw-bold mb-1">Outward Flow</h6>
+              <p class="text-small text-muted mb-0">Encrypted transmission to Clearing House.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="modern-card p-3 h-100">
+              <div class="step-num text-primary fw-bold mb-1">04</div>
+              <h6 class="fw-bold mb-1">Consolidation</h6>
+              <p class="text-small text-muted mb-0">Bank-wise and branch-wise sorting at hub.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="modern-card p-3 h-100">
+              <div class="step-num text-primary fw-bold mb-1">05</div>
+              <h6 class="fw-bold mb-1">Inward Clearance</h6>
+              <p class="text-small text-muted mb-0">Electronic transfer to drawee branch for posting.</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <div class="modern-card p-3 h-100">
+              <div class="step-num text-primary fw-bold mb-1">06</div>
+              <h6 class="fw-bold mb-1">Return Routing</h6>
+              <p class="text-small text-muted mb-0">Dishonoured cheques regrouped without paper.</p>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- Services -->
     <section id="services">
       <div class="container-fluid">
-        <h2 class="section-title">Services</h2>
+        <span class="section-tag">SERVICES</span>
+        <h2 class="section-title">Specialized Web-Enabled Services</h2>
         <p class="section-subtitle">
-          Complementary web-enabled services that extend your business capabilities in the digital
-          era.
+          Turnkey digital platforms extending business and educational capabilities in the connected era.
         </p>
 
         <div class="row g-4 mt-2">
           <!-- WebZara -->
           <div class="col-lg-4 fade-in-up show">
-            <div class="feature-card p-4 h-100">
+            <div class="modern-card h-100">
+              <div class="card-top-accent"></div>
+              <div class="card-icon-box">🌐</div>
               <h5>WebZara</h5>
-              <p class="text-small text-muted">Web Catalogue Service</p>
-              <p class="text-small">
-                WebZara is an innovative online business promotion tool for commercial entities
-                dealing in tangible products. It provides a platform to load and display product
-                images and details interactively in websites with regularly updated content to
-                attract visitors and increase sales.
+              <p class="text-muted fw-medium text-small mb-2">Web Catalogue &amp; Online Promotion</p>
+              <p>
+                An innovative online business promotion tool for commercial entities dealing in physical products. Provides an interactive showcase to display product images, specifications, and regular updates to attract buyers.
               </p>
-              <p class="text-small mb-0">
-                Authorized users can create, update and upload product images and details without
-                needing a webmaster, making it ideal for enterprises and retail chains.
+              <p class="text-small text-muted mb-0">
+                Authorized users can manage listings without requiring a webmaster, making it ideal for retail chains and distributors.
               </p>
+              <div class="mt-auto pt-3 border-top">
+                <a href="#contact" class="btn btn-outline-primary btn-sm rounded-pill" onclick="selectTopic('WebZara')">Learn More →</a>
+              </div>
             </div>
           </div>
 
           <!-- V-Lab -->
           <div class="col-lg-4 fade-in-up show">
-            <div class="feature-card p-4 h-100">
+            <div class="modern-card h-100">
+              <div class="card-top-accent"></div>
+              <div class="card-icon-box">💻</div>
               <h5>V-Lab</h5>
-              <p class="text-small text-muted">Online Lab Service</p>
-              <p class="text-small">
-                V-Lab is a unique online computer lab platform available 24×7 for IT students in
-                regular and distance education modes. It enables practical lab work from anywhere
-                via LAN or broadband.
+              <p class="text-muted fw-medium text-small mb-2">24×7 Online Computer Lab &amp; Exams</p>
+              <p>
+                A 24×7 virtual computer lab platform for IT students across regular and distance education modes. Enables practical hands-on lab work from anywhere over LAN or broadband.
               </p>
-              <p class="text-small mb-0">
-                With a secured exam module, students can submit practical examinations online, and
-                evaluators can securely assess them. Submissions are preserved for future review,
-                creating a reliable and transparent exam process.
+              <p class="text-small text-muted mb-0">
+                Includes a secured practical examination module where students submit practicals online and evaluators securely grade them with complete archival transparency.
               </p>
+              <div class="mt-auto pt-3 border-top">
+                <a href="#contact" class="btn btn-outline-primary btn-sm rounded-pill" onclick="selectTopic('V-Lab')">Learn More →</a>
+              </div>
             </div>
           </div>
 
           <!-- KlassNotes -->
           <div class="col-lg-4 fade-in-up show">
-            <div class="feature-card p-4 h-100">
+            <div class="modern-card h-100">
+              <div class="card-top-accent"></div>
+              <div class="card-icon-box">📝</div>
               <h5>KlassNotes</h5>
-              <p class="text-small text-muted">E-Teaching Service</p>
-              <p class="text-small">
-                KlassNotes is a secure web-enabled e-teaching platform that allows faculty to
-                publish class study notes, illustrations, materials and assignments specifically for
-                their students.
+              <p class="text-muted fw-medium text-small mb-2">Secure E-Teaching Platform</p>
+              <p>
+                A secure web-enabled e-teaching portal that empowers faculty to publish lecture notes, diagrams, and assignments specifically for enrolled students.
               </p>
-              <p class="text-small mb-0">
-                Teachers directly upload, update or delete materials in multiple formats (Word,
-                Excel, PowerPoint, PDF, images, etc.) without needing a webmaster. It enables
-                focused e-teaching and attentive e-learning for higher education, distinct from
-                conventional e-learning platforms.
+              <p class="text-small text-muted mb-0">
+                Supports multi-format uploads (Word, Excel, PowerPoint, PDF, multimedia) directly by teachers, promoting focused, attentive higher-education learning.
               </p>
+              <div class="mt-auto pt-3 border-top">
+                <a href="#contact" class="btn btn-outline-primary btn-sm rounded-pill" onclick="selectTopic('KlassNotes')">Learn More →</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- Clientele -->
     <section id="clientele">
       <div class="container-fluid">
-        <h2 class="section-title">Clientele</h2>
-        <p class="section-subtitle">A selection of organizations represented in our client community.</p>
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4">
+          <div>
+            <span class="section-tag">CLIENTELE</span>
+            <h2 class="section-title mb-1">Trusted by 65+ Organizations</h2>
+            <p class="section-subtitle mb-0">
+              A selection of financial institutions, universities, and commercial entities in our client community.
+            </p>
+          </div>
+        </div>
 
-        <div class="row g-3 mt-3">
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client1.jpg" alt="Client 1" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client2.jpg" alt="Client 1" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client3.jpg" alt="Client 1" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client4.jpg" alt="Client 1" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client5.jpg" alt="Client 1" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client6.jpg" alt="Client 1" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client7.jpg" alt="Client 7" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client8.jpg" alt="Client 8" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client9.jpg" alt="Client 9" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client10.jpg" alt="Client 10" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client11.jpg" alt="Client 11" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client12.jpg" alt="Client 12" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client13.jpg" alt="Client 13" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client14.jpg" alt="Client 14" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client15.jpg" alt="Client 15" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client16.jpg" alt="Client 16" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client17.jpg" alt="Client 17" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client18.jpg" alt="Client 18" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client19.jpg" alt="Client 19" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client20.jpg" alt="Client 20" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client21.jpg" alt="Client 21" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client22.jpg" alt="Client 22" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client23.jpg" alt="Client 23" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client24.jpg" alt="Client 24" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client25.jpg" alt="Client 25" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client26.jpg" alt="Client 26" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client27.jpg" alt="Client 27" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client28.jpg" alt="Client 28" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client29.jpg" alt="Client 29" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client30.jpg" alt="Client 30" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client31.jpg" alt="Client 31" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client32.jpg" alt="Client 32" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client33.jpg" alt="Client 33" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client34.jpg" alt="Client 34" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client35.jpg" alt="Client 35" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client36.jpg" alt="Client 36" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client37.jpg" alt="Client 37" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client38.jpg" alt="Client 38" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client39.jpg" alt="Client 39" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client40.jpg" alt="Client 40" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client41.jpg" alt="Client 41" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client42.jpg" alt="Client 42" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client43.jpg" alt="Client 43" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client44.jpg" alt="Client 44" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client45.jpg" alt="Client 45" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client46.jpg" alt="Client 46" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client47.jpg" alt="Client 47" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client48.jpg" alt="Client 48" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client49.jpg" alt="Client 49" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client50.jpg" alt="Client 50" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client51.jpg" alt="Client 51" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client52.jpg" alt="Client 52" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client53.jpg" alt="Client 53" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client54.jpg" alt="Client 54" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client55.jpg" alt="Client 55" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client56.jpg" alt="Client 56" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client57.jpg" alt="Client 57" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client58.jpg" alt="Client 58" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client59.jpg" alt="Client 59" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client60.jpg" alt="Client 60" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client61.jpg" alt="Client 61" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client62.jpg" alt="Client 62" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client63.jpg" alt="Client 63" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client64.jpg" alt="Client 64" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client65.jpg" alt="Client 65" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client66.jpg" alt="Client 66" class="client-logo" />
-            </div>
-          </div>
-          <div class="col-6 col-md-3 col-lg-2 fade-in-up show">
-            <div class="feature-card p-2 text-center h-100">
-              <img src="./index_files/client67.jpg" alt="Client 67" class="client-logo" />
-            </div>
-          </div>
+        <!-- 67 Client Logos Grid (First 18 featured, rest expandable) -->
+        <div class="row g-2.5 g-md-3 mt-2">
+          <!-- Featured Clients 1-18 -->
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client1.jpg" alt="Client 1" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client2.jpg" alt="Client 2" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client3.jpg" alt="Client 3" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client4.jpg" alt="Client 4" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client5.jpg" alt="Client 5" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client6.jpg" alt="Client 6" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client7.jpg" alt="Client 7" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client8.jpg" alt="Client 8" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client9.jpg" alt="Client 9" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client10.jpg" alt="Client 10" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client11.jpg" alt="Client 11" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client12.jpg" alt="Client 12" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client13.jpg" alt="Client 13" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client14.jpg" alt="Client 14" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client15.jpg" alt="Client 15" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client16.jpg" alt="Client 16" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client17.jpg" alt="Client 17" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2"><div class="client-logo-card"><img src="./index_files/client18.jpg" alt="Client 18" loading="lazy" /></div></div>
+
+          <!-- Additional Clients 19-67 (Hidden by default, expandable) -->
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client19.jpg" alt="Client 19" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client20.jpg" alt="Client 20" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client21.jpg" alt="Client 21" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client22.jpg" alt="Client 22" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client23.jpg" alt="Client 23" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client24.jpg" alt="Client 24" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client25.jpg" alt="Client 25" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client26.jpg" alt="Client 26" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client27.jpg" alt="Client 27" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client28.jpg" alt="Client 28" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client29.jpg" alt="Client 29" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client30.jpg" alt="Client 30" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client31.jpg" alt="Client 31" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client32.jpg" alt="Client 32" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client33.jpg" alt="Client 33" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client34.jpg" alt="Client 34" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client35.jpg" alt="Client 35" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client36.jpg" alt="Client 36" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client37.jpg" alt="Client 37" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client38.jpg" alt="Client 38" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client39.jpg" alt="Client 39" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client40.jpg" alt="Client 40" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client41.jpg" alt="Client 41" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client42.jpg" alt="Client 42" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client43.jpg" alt="Client 43" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client44.jpg" alt="Client 44" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client45.jpg" alt="Client 45" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client46.jpg" alt="Client 46" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client47.jpg" alt="Client 47" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client48.jpg" alt="Client 48" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client49.jpg" alt="Client 49" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client50.jpg" alt="Client 50" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client51.jpg" alt="Client 51" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client52.jpg" alt="Client 52" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client53.jpg" alt="Client 53" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client54.jpg" alt="Client 54" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client55.jpg" alt="Client 55" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client56.jpg" alt="Client 56" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client57.jpg" alt="Client 57" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client58.jpg" alt="Client 58" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client59.jpg" alt="Client 59" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client60.jpg" alt="Client 60" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client61.jpg" alt="Client 61" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client62.jpg" alt="Client 62" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client63.jpg" alt="Client 63" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client64.jpg" alt="Client 64" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client65.jpg" alt="Client 65" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client66.jpg" alt="Client 66" loading="lazy" /></div></div>
+          <div class="col-6 col-md-3 col-lg-2 client-hidden-item d-none"><div class="client-logo-card"><img src="./index_files/client67.jpg" alt="Client 67" loading="lazy" /></div></div>
+        </div>
+
+        <!-- Toggle Button -->
+        <div class="text-center mt-4">
+          <button id="clientToggleBtn" class="client-toggle-btn">
+            View All 67 Client Institutions <span class="ms-1">↓</span>
+          </button>
         </div>
       </div>
     </section>
+
     <!-- Contact Us -->
     <section id="contact">
       <div class="container-fluid">
-        <h2 class="section-title">Contact Us</h2>
+        <span class="section-tag">CONTACT US</span>
+        <h2 class="section-title">Let’s Discuss Your Automation Needs</h2>
         <p class="section-subtitle">
-          Reach out for demos, implementation discussions or partnership opportunities.
+          Connect with our technical team in Chennai for live product demonstrations, pilots, or production inquiries.
         </p>
 
         <div class="row g-4 mt-2">
-          <div class="col-lg-6 fade-in-up show">
-            <div class="contact-wrapper p-4 p-md-5 h-100">
-              <h5 class="mb-3">Abacus Logistics Solutions (P) Ltd.</h5>
-              <p class="text-small mb-1">
+          <!-- Office Address Card -->
+          <div class="col-lg-5 fade-in-up show">
+            <div class="contact-card h-100 d-flex flex-column">
+              <h5 class="fw-bold mb-3">Abacus Logistics Solutions (P) Ltd.</h5>
+              <p class="text-muted mb-4">
                 No. 14, Baba Towers, 3rd Floor,<br />
-                Sterling Avenue,<br />
-                Nungambakkam,<br />
-                Chennai, India - 600034.
+                Sterling Avenue, Nungambakkam,<br />
+                Chennai, Tamil Nadu, India — 600034.
               </p>
 
-              <hr />
+              <div class="space-y-3 mb-4">
+                <div class="d-flex align-items-center gap-3">
+                  <span class="card-icon-box mb-0" style="width: 36px; height: 36px; font-size: 1rem;">📞</span>
+                  <div>
+                    <span class="text-uppercase text-muted" style="font-size: 0.68rem; font-weight: 700;">Phone</span>
+                    <div class="fw-semibold">+91 44 45110324</div>
+                  </div>
+                </div>
 
-              <p class="text-small mb-1"><strong>Phone:</strong> +91 44 45110324</p>
-              <p class="text-small mb-1"><strong>Email:</strong> abacus@alssoft.com</p>
-              <p class="text-small mb-3"><strong>Website:</strong> www.alssoft.com</p>
+                <div class="d-flex align-items-center gap-3 mt-3">
+                  <span class="card-icon-box mb-0" style="width: 36px; height: 36px; font-size: 1rem;">✉️</span>
+                  <div>
+                    <span class="text-uppercase text-muted" style="font-size: 0.68rem; font-weight: 700;">Email</span>
+                    <div class="fw-semibold">abacus@alssoft.com</div>
+                  </div>
+                </div>
 
-              <p class="text-small mb-0">
-                Connect with us for tailored demonstrations, pilot deployments or enterprise
-                rollouts of our products and solutions. We’ll respond with the best possible
-                automation roadmap for your requirements.
-              </p>
+                <div class="d-flex align-items-center gap-3 mt-3">
+                  <span class="card-icon-box mb-0" style="width: 36px; height: 36px; font-size: 1rem;">🌐</span>
+                  <div>
+                    <span class="text-uppercase text-muted" style="font-size: 0.68rem; font-weight: 700;">Web</span>
+                    <div class="fw-semibold">www.alssoft.com</div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="p-3 rounded-3 bg-light border mt-auto text-small text-muted">
+                📍 Situated in the heart of Chennai's commercial district, serving clients nationwide with dedicated onsite and remote support.
+              </div>
             </div>
           </div>
 
-          <div class="col-lg-6 fade-in-up show">
-            <div class="info-card p-4 h-100">
-              <h6 class="mb-3">Quick Enquiry</h6>
-              <form>
-                <div class="mb-3">
-                  <label class="form-label text-small">Name</label>
-                  <input type="text" class="form-control" placeholder="Your full name" />
+          <!-- Quick Enquiry Form -->
+          <div class="col-lg-7 fade-in-up show">
+            <div class="contact-card h-100">
+              <h5 class="fw-bold mb-1">Quick Enquiry</h5>
+              <p class="text-muted text-small mb-3">Select your topic of interest or tell us your custom requirements:</p>
+
+              <!-- Topic Selector Pills -->
+              <div class="topic-selector">
+                <span class="topic-pill active" data-topic="General Enquiry">General Enquiry</span>
+                <span class="topic-pill" data-topic="Insta CrDr (Cheque Clearing)">Insta CrDr (CTS)</span>
+                <span class="topic-pill" data-topic="PigeonDra (Library ERP)">PigeonDra ERP</span>
+                <span class="topic-pill" data-topic="SalePromptor">SalePromptor</span>
+                <span class="topic-pill" data-topic="V-Lab (Virtual Lab)">V-Lab</span>
+                <span class="topic-pill" data-topic="KlassNotes">KlassNotes</span>
+              </div>
+
+              <!-- Form Success Notice -->
+              <div id="formSuccessNotice" class="alert alert-success d-none mb-3" role="alert">
+                <b>Thank you!</b> Your enquiry has been received. Our solutions team will get in touch shortly.
+              </div>
+
+              <form id="enquiryForm">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label text-small fw-semibold">Your Name *</label>
+                    <input type="text" class="form-control" placeholder="e.g. Ramesh Kumar" required />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label text-small fw-semibold">Email Address *</label>
+                    <input type="email" class="form-control" placeholder="name@company.com" required />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label text-small fw-semibold">Organization / Institution</label>
+                    <input type="text" class="form-control" placeholder="Company or Bank name" />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label text-small fw-semibold">Phone Number</label>
+                    <input type="tel" class="form-control" placeholder="+91 98765 43210" />
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label text-small fw-semibold">Requirement Details</label>
+                    <textarea
+                      id="enquiryMessage"
+                      rows="4"
+                      class="form-control"
+                      placeholder="Tell us about your process automation requirements..."
+                    ></textarea>
+                  </div>
+                  <div class="col-12 pt-2">
+                    <button type="submit" class="btn btn-primary-action px-4 py-2.5">
+                      Submit Enquiry →
+                    </button>
+                  </div>
                 </div>
-                <div class="mb-3">
-                  <label class="form-label text-small">Email</label>
-                  <input type="email" class="form-control" placeholder="your@email.com" />
-                </div>
-                <div class="mb-3">
-                  <label class="form-label text-small">Organization</label>
-                  <input type="text" class="form-control" placeholder="Company / Institution" />
-                </div>
-                <div class="mb-3">
-                  <label class="form-label text-small">Message</label>
-                  <textarea
-                    rows="4"
-                    class="form-control"
-                    placeholder="Tell us about your requirement"
-                  ></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary px-4">Submit Enquiry</button>
               </form>
             </div>
           </div>
         </div>
       </div>
     </section>
+
     <!-- Footer -->
-    <footer class="footer bg-white text-center">
+    <footer class="footer bg-white py-4 border-top">
       <div class="container-fluid">
-        <div
-          class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-2"
-        >
-          <span
-            >© <span id="yearSpan">2026</span> Abacus Logistics Solutions (P) Ltd. All rights
-            reserved.</span
-          >
-          <span>“Applying Logic to Innovate”</span>
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-center gap-3">
+          <div class="text-small text-muted">
+            © <span id="yearSpan">2026</span> <b>Abacus Logistics Solutions (P) Ltd.</b> All rights reserved.
+          </div>
+          <div class="text-small text-primary fw-semibold">
+            “Applying Logic to Innovate”
+          </div>
+          <div class="text-small text-muted">
+            Enterprise Software &amp; IT Solutions · Chennai, India
+          </div>
         </div>
       </div>
     </footer>
 
-    <script type="module" src="./src/assets/js/main.ts"></script>
+    <!-- Back to top floating button -->
+    <div id="backToTop" class="back-to-top" title="Back to top" aria-label="Back to top">
+      ↑
+    </div>
+
+    <!-- Scripts -->
+    <script>
+      function selectTopic(topic) {
+        const pills = document.querySelectorAll('.topic-pill');
+        pills.forEach(p => {
+          if (p.getAttribute('data-topic')?.includes(topic)) {
+            p.click();
+          }
+        });
+      }
+    </script>
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
-

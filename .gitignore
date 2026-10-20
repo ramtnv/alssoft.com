@@ -1,8 +1,4 @@
-node_modules/
-dist/
-.vite/
-*.log
 .DS_Store
-package-lock.json
-.env
-.env.local
+Thumbs.db
+*.log
+*.tmp

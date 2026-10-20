@@ -1,0 +1,21 @@
+{
+  "name": "alssoft",
+  "host": "alssoft.com",
+  "protocol": "ftp",
+  "port": 21,
+  "username": "ramtnv@alssoft.com",
+  "password": "R@ms9003",
+  "remotePath": "/",
+  "uploadOnSave": true,
+  "useTempFile": false,
+  "openSsh": false,
+  "watcher": {
+    "files": "**/*",
+    "autoUpload": true,
+    "autoDelete": false,
+    "ignoreCreate": false,
+    "ignoreUpdate": false,
+    "ignoreDelete": true
+  },
+  "ignore": []
+}
